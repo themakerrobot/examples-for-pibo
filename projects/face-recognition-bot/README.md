@@ -23,10 +23,7 @@ This project consists of two Python scripts that implement face recognition func
     * OpenPibo 로봇 (OpenPibo robot).
 2.  **소프트웨어 (Software)**:
     * Python 3.x
-    * `openpibo` 라이브러리. 다음 명령어로 설치: (`openpibo` library. Install using:)
-        ```bash
-        pip install openpibo opencv-python
-        ```
+    * `openpibo` 라이브러리.
 3.  **디렉토리 (Directory)**:
     * 얼굴 데이터베이스 파일(`facedb`)을 저장할 디렉토리 (예: `/home/pi/code/`). 스크립트 내 경로와 일치해야 합니다. (A directory to store the face database file (`facedb`), e.g., `/home/pi/code/`. Must match the path in the scripts).
 
