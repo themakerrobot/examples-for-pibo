@@ -35,7 +35,7 @@ This Python script enables an OpenPibo robot to perform various interactive task
     * Pibo의 터미널 또는 SSH 연결을 통해 스크립트가 저장된 디렉토리로 이동합니다.
     * 다음 명령어를 입력하여 스크립트를 실행합니다:
         ```bash
-        sudo python3 pibo_main.py
+        sudo python3 main.py
         ```
 
 3.  **실행 중 상호작용 (Interaction during execution)**:
