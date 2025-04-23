@@ -47,7 +47,7 @@ This Python script enables an OpenPibo robot to autonomously navigate a path def
     * 터미널을 열고 이 스크립트 파일이 있는 디렉토리로 이동합니다. (Open a terminal and navigate to the directory containing this script file).
     * 다음 명령어를 입력하여 스크립트를 실행합니다: (Run the following command to execute the script:)
         ```bash
-        python3 main.py
+        sudo python3 main.py
         ```
 
 ## 기능 상세 (Functionality Notes)
