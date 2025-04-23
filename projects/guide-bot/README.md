@@ -22,10 +22,7 @@ This project is a web application built with FastAPI that interacts with an Open
     * OpenPibo 로봇 (OpenPibo robot).
 2.  **소프트웨어 (Software)**:
     * Python 3.x
-    * 필요한 Python 라이브러리 (Required Python libraries): `fastapi`, `uvicorn`, `pydantic`, `openpibo`. 다음 명령어로 설치할 수 있습니다 (Can be installed using):
-        ```bash
-        pip install fastapi uvicorn pydantic openpibo
-        ```
+    * 필요한 Python 라이브러리 (Required Python libraries): `fastapi`, `uvicorn`, `pydantic`, `openpibo`.
 3.  **파일 및 디렉토리 (Files and Directories)**:
     * 이 FastAPI 스크립트 파일 (예: `main.py`) (This FastAPI script file, e.g., `main.py`).
     * `templates` 라는 이름의 디렉토리. (A directory named `templates`).
