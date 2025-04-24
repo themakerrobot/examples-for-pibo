@@ -1,23 +1,17 @@
-# OpenPibo 얼굴 학습 및 인식 시스템 (OpenPibo Face Training and Recognition System)
+# 얼굴을 학습하고, 누군지 알아보는 로봇 만들기
 
-## 프로젝트 설명 (Project Description)
+## 프로젝트 설명
 
-이 프로젝트는 OpenPibo 로봇을 사용하여 얼굴 인식 기능을 구현하는 두 개의 파이썬 스크립트로 구성됩니다:
+이 프로젝트는 Pibo 로봇을 사용하여 얼굴 인식 기능을 구현하는 두 개의 파이썬 스크립트로 구성됩니다:
 
 1.  **얼굴 학습 스크립트 (`face_training.py`)**: 로봇 카메라로 얼굴을 감지하고, 특정 이름(예: '홍길동')으로 해당 얼굴 데이터를 학습시킨 후, 학습된 데이터를 파일(`facedb`)로 저장합니다.
 2.  **얼굴 인식 스크립트 (`main.py`)**: 저장된 얼굴 데이터베이스(`facedb`)를 로드(선택 사항)하고, 카메라로 실시간 얼굴을 감지합니다. 감지된 얼굴이 이미지 경계 내에 있을 경우, 데이터베이스와 비교하여 등록된 사용자인지('이름') 또는 미등록 사용자인지('Guest') 식별하고 결과를 화면에 표시합니다.
 
-This project consists of two Python scripts that implement face recognition functionality using an OpenPibo robot:
-
-1.  **Face Training Script (`face_training.py`)**: Detects a face using the robot's camera, trains the face data under a specific name (e.g., '홍길동'), and saves the trained data to a file (`facedb`).
-2.  **Face Recognition Script (`main.py`)**: Optionally loads the saved face database (`facedb`) and detects faces in real-time via the camera. If a detected face is within the image boundaries, it compares it against the database to identify whether it's a registered user ('Name') or an unregistered user ('Guest') and displays the result.
-
 ## 포함된 파일 (Included Files)
+* `face_training.py`: 얼굴 감지 및 학습, 데이터베이스 저장 스크립트
+* `main.py`: 얼굴 감지, (선택적) 데이터베이스 로딩, 얼굴 인식 및 결과 표시 스크립트
 
-* `face_training.py`: 얼굴 감지 및 학습, 데이터베이스 저장 스크립트 (Face detection, training, and database saving script).
-* `main.py`: 얼굴 감지, (선택적) 데이터베이스 로딩, 얼굴 인식 및 결과 표시 스크립트 (Face detection, optional database loading, face recognition, and result display script).
-
-## 사전 준비 (Prerequisites)
+## 사전 준비
 
 1.  **하드웨어 (Hardware)**:
     * OpenPibo 로봇 (OpenPibo robot).
